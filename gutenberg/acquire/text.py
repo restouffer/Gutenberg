@@ -42,7 +42,7 @@ def _format_download_uri(etextno):
 
     else:
         etextno = str(etextno)
-        extensions = ('.txt', '-8.txt')
+        extensions = ('.txt', '-8.txt', '.txt.utf-8')
         for extension in extensions:
             uri = '{root}/{path}/{etextno}/{etextno}{extension}'.format(
                 root=uri_root,
